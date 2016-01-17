@@ -71,15 +71,6 @@ abstract class QueryObject extends Nette\Object implements Kdyby\Persistence\Que
 
 
 	/**
-	 */
-	public function __construct()
-	{
-
-	}
-
-
-
-	/**
 	 * @param \Kdyby\Persistence\Queryable $repository
 	 * @return \Doctrine\ORM\Query|\Doctrine\ORM\QueryBuilder
 	 */
